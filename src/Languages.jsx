@@ -6,7 +6,7 @@ const Languages = () => {
   let languageCards = langs.map((langu, index) => {
     return (
       <div className="p-6" key={index}>
-        <div className="bg-white p-6 rounded-lg shadow-lg w-40 flex text-center justify-center flex-col gap-3 md:w-45 lg:w-60">
+        <div className="bg-white p-6 rounded-lg shadow-lg w-30 flex text-center justify-center flex-col gap-3 md:w-45 lg:w-60">
           <button className="bg-white border-pink-600 rounded-lg px-4 py-2 border-2 mx-auto text-pink-600 hover:bg-gray-100">
             {langu.title}
           </button>

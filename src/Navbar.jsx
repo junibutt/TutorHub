@@ -11,7 +11,7 @@ const Navbar = ({onLogout}) => {
         <ul className='flex gap-5 pr-4 font-bold cursor-pointer md:text-xl md:gap-7 md:pt-1 text-white'>
           <li className='hover:underline hover:text-white duration-100'><a href='#'>Home</a></li>
           <li className='hover:underline hover:text-white duration-100'><a href='#'>Courses</a></li>
-          <li className='hover:underline hover:text-white duration-100'><a href='#'>Our Teachers</a></li>
+          <li className='hover:underline hover:text-white duration-100'><a href='#'>Teachers</a></li>
           <li className='hover:underline hover:text-white duration-100'><a href='#' onClick={onLogout}>LogOut</a></li>
         </ul>
       </div>

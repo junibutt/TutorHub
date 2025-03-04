@@ -16,7 +16,7 @@ const Header = ({onLogout}) => {
           language today <u>with the</u> <br/>
          <u>best</u> online tutor. </p>
 
-         <p className='text-center pt-25 flex justify-center md:pt-14 md:text-6xl'><FaArrowCircleDown className='text-white text-center text-4xl'/></p>
+         <p className='text-center pt-25 flex justify-center md:pt-14 md:text-6xl lg:pt-5'><FaArrowCircleDown className='text-white text-center text-4xl'/></p>
         </div>
   )
 }

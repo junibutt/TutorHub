@@ -29,7 +29,7 @@ const Footer = () => {
         <p className='pt-4 hover:text-gray-600 cursor-pointer transition duration-300'>Need Any Help?</p>
         <p className='hover:text-gray-600 cursor-pointer transition duration-300'>contact@info.com</p>
         </div>
-        <div className='text-sm'><h1 className='pb-4'>Follow Us</h1>
+        <div className='text-sm whitespace-nowrap'><h1 className='pb-2'>Follow Us</h1>
         <CiFacebook className='text-pink-600 text-xl cursor-pointer' />
         <AiOutlineYoutube className='text-pink-600 text-xl cursor-pointer'/>
         <RiInstagramLine className='text-pink-600 text-xl cursor-pointer'/>

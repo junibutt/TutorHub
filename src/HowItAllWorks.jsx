@@ -34,7 +34,7 @@ const HowItAllWorks = () => {
                 1
               </button>
               <h1 className="font-bold text-xl pt-7 pl-3 md:pt-3">Find the perfect tutor</h1>
-              <p className="pt-2 pl-3">Discover the ideal tutor who matches your learning style.</p>
+              <p className="pt-2 pl-3 text-center md:text-left">Discover the ideal tutor who matches your learning style.</p>
             </div>
 
             {/* Step 2 */}
@@ -43,7 +43,7 @@ const HowItAllWorks = () => {
                 2
               </button>
               <h1 className="font-bold text-xl pt-7 pl-3 md:pt-3">Schedule Your Lesson</h1>
-              <p className="pt-2 pl-3">Schedule your lesson at your convenience for flexible learning.</p>
+              <p className="pt-2 pl-3 text-center md:text-left">Schedule your lesson at your convenience for flexible learning.</p>
             </div>
 
             {/* Step 3 */}
@@ -52,7 +52,7 @@ const HowItAllWorks = () => {
                 3
               </button>
               <h1 className="font-bold text-xl pt-7 pl-3 md:pt-3">Start The Journey!</h1>
-              <p className="pt-2 pl-3">Don't get late. Just buckle up and register now!</p>
+              <p className="pt-2 pl-3 text-center md:text-left">Don't get late. Just buckle up and register now!</p>
             </div>
           </div>
         </div>
