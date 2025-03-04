@@ -8,7 +8,7 @@ const Cards = () => {
   return (
     <div className='bg-gray-300 pt-20 pb-20'>
       <div className='p-2 md:flex md:flex-row md:p-3 lg:flex lg:flex-row md:space-x-10 lg:space-x-12'>
-        {/* Expert Tutors */}
+       
         <div className='flex flex-col mb-10 md:mb-0 items-center'>
           <GiGraduateCap className='text-pink-600 text-3xl' />
           <h1 className='text-lg text-center'>Expert Tutors</h1>
@@ -17,7 +17,7 @@ const Cards = () => {
           </p>
         </div>
 
-        {/* Verified Profiles */}
+       
         <div className='flex flex-col mb-7 md:mb-0 items-center'>
           <MdVerifiedUser className='text-pink-600 text-3xl' />
           <h1 className='text-lg text-center'>Verified Profiles</h1>
@@ -26,7 +26,7 @@ const Cards = () => {
           </p>
         </div>
 
-        {/* Pay Per Lesson */}
+        
         <div className='flex flex-col mb-7 md:mb-0 items-center'>
           <BsCashCoin className='text-pink-600 text-3xl' />
           <h1 className='text-lg text-center'>Pay Per Lesson</h1>
@@ -35,7 +35,7 @@ const Cards = () => {
           </p>
         </div>
 
-        {/* Affordable Prices */}
+      
         <div className='flex flex-col mb-7 md:mb-0 items-center'>
           <AiFillDollarCircle className='text-pink-600 text-3xl' />
           <h1 className='text-lg text-center'>Affordable Prices</h1>
