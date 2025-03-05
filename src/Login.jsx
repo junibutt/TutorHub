@@ -11,9 +11,8 @@ const Login = ({ onLogin }) => {
     e.preventDefault();
     onLogin(email, password);
 
-    if (email === "admin@example.com" && password === "admin123") {
-      navigate("/admin");
-    } else if (email === "user@example.com" && password === "user123") {
+    // Only check for user login now
+    if (email === "user@example.com" && password === "user123") {
       navigate("/user");
     } else {
       alert("Invalid credentials");

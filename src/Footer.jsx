@@ -45,8 +45,8 @@ const Footer = () => {
         </div>
       <hr/>
       <div className='flex justify-between p-2 lg:px-4'>
-        <div><p className='text-xs md:text-sm lg:text-base '>Copyright © 2025 Language Tutors</p></div>
-        <div ><p className='text-xs md:text-sm lg:text-base'>Powered by Language Tutors </p></div>
+        <div><p className='text-xs md:text-sm lg:text-base '>Copyright © 2025 Tutor-hub</p></div>
+        <div ><p className='text-xs md:text-sm lg:text-base'>Powered by Tutor-Hub </p></div>
       </div>
     </div>
   )
